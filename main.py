@@ -3,8 +3,8 @@ from pytube import YouTube
 import time
 import os
 
-TOKEN = "6138392575:AAFumBrTx7VDCaPKnarqsGpG3GhfoHubuHc"
-DEFAULT_PATH = 'C:\\Users\\Pavel\\Desktop\\download'
+TOKEN = "YOUR_TOKEN"
+DEFAULT_PATH = 'PATH_TO_DIR'
 
 bot = Bot(token=TOKEN)
 dp = Dispatcher(bot=bot)
